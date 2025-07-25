@@ -11,6 +11,9 @@ nav {
 
 body {
   margin: 0;
+  height: 100vh;
+  max-width: 100vw;
+  background-color: rgb(205, 206, 173);
 }
 
 header {
