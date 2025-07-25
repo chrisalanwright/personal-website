@@ -16,16 +16,32 @@ body {
   background-color: rgb(205, 206, 173);
 }
 
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+
 p {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr;
   gap: 10px;
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact {
+  margin-left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .photo {
   height: 200px;
   border: solid black;
+  margin-right: 2%;
 }
 
 header {

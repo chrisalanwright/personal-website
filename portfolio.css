@@ -16,6 +16,19 @@ body {
   background-color: rgb(205, 206, 173);
 }
 
+main {
+  margin: 10px;
+}
+
+p {
+  border: solid black;
+}
+
+#below {
+  display: flex;
+  justify-content: center;
+}
+
 header {
   font-size: xx-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
