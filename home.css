@@ -1,0 +1,48 @@
+nav {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  border-bottom: solid black;
+  height: 60px;
+  max-width: 100vw;
+  background-color: rgb(7, 109, 177);
+  margin-bottom: 5%;
+  align-content: center;
+}
+
+body {
+  margin: 0;
+  max-width: 100vw;
+  background-color: tan;
+}
+
+p {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.photo {
+  height: 200px;
+  border: solid black;
+}
+
+header {
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: solid black;
+  background-color: rgb(7, 109, 177);
+}
+
+.github {
+  height: 50px;
+}
